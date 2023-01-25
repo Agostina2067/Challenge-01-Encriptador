@@ -39,6 +39,9 @@ function botonDesencriptar() {
     const textoEncriptado = desencriptar(mensajeResultado.value)
     mensajeIngresado.value = textoEncriptado
     mensajeIngresado.value = "";
+    mensajeResultado.style.backgroundImage = "none";
+    mjeNoEncontrado.style.display = "none";
+    mjeIngresaTexto.style.display = "none";
 }
 
 function copiar () {
