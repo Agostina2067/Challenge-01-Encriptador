@@ -1,0 +1,217 @@
+* {
+    background: #e0e6e9;
+    font-family: 'Inter', 'sans-serif';
+    font-weight: 400;
+}
+
+.logo {
+    position: absolute;
+    width: 3%;
+    margin: 10px 0 0 15px;
+    padding: 5px;
+}
+main {
+    display: flex;
+    padding: 5px;
+    margin: 10px 0 40px 80px;
+}
+
+#mensajeIngresado {
+    font-size: 30px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    color: #666666;
+    margin: 80px 0 0 50px;
+    text-transform: lowercase;
+}
+
+::placeholder {color: #838383}
+    #mensajeIngresado:focus {
+        outline: none;
+    }
+
+
+.informacion {
+    font-size: 14px;
+    color: #6e6e6e;
+}
+
+.botones {
+    display: flex;
+}
+
+.encriptar {
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #3a3a3a;
+    width: 320px;
+    height: 60px;
+    border: 1px solid #3a3a3a;
+    border-radius: 10px;
+    margin: 0 5px 0 0;
+    opacity: 80%;
+    transition: 0.2s;
+}
+
+ .encriptar:hover {
+    cursor: pointer;
+    opacity: 100%;
+ }
+
+.desencriptar {
+    font-size: 16px;
+    color: #3a3a3a;
+    background-color: #ffffff;
+    width: 320px;
+    height: 60px;
+    border: 1px solid #3a3a3a;
+    border-radius: 10px;
+    margin: 0 0 0 5px;
+    opacity: 80%;
+    transition: 0.2s;
+}
+
+.desencriptar:hover {
+    cursor: pointer;
+    opacity: 100%;
+ }
+
+#mensajeResultado {
+    background-color: #FFFFFF;
+    background-image: url("Imágenes/Pelo-Frutilla-1.jpg");
+    background-size: 90%;
+    background-repeat: no-repeat;
+    font-size: 28px;
+    border: none;
+    border-radius: 10px;
+    color: #505050;
+    width: 300px;
+    height: 490px;
+    margin: 5px 0 0 98px;
+    padding: 20px 20px;
+    position: relative;
+    box-shadow: 10px 10px 10px #a0a8b3;
+}
+
+#mensajeResultado:focus {
+    outline: none;
+}
+
+h3 {
+    background-color: #FFFFFF;
+    color: #838383;
+    font-size: 28px;
+    width: 300px;
+    text-align: center;
+    position: relative;
+    margin: -140px 0 -10px 120px;
+}
+
+h4 {
+    background-color: #FFFFFF;
+    color: #949494;
+    font-size: 14px;
+    position: relative;
+    width: 300px;
+    text-align: center;
+    margin-left: 120px;
+}
+
+#copy {
+    display: none;
+}
+
+.copiar {
+    position: relative;
+    color: #666666;
+    font-size: 16px;
+    background-color: #FFFFFF;
+    width: 300px;
+    height: 60px;
+    margin: -79px 0 0 120px;
+    border: 1px solid #666666;
+    border-radius: 10px;
+    opacity: 80%;
+    transition: 0.2s;
+}
+
+.copiar:hover {
+    cursor: pointer;
+    opacity: 100%;
+ }
+
+.desarrolladora {
+    display: block;
+    font-size: 12px;
+    text-align: center;
+    color: #6e6e6e;
+}
+
+@media screen and (max-width: 480px) {
+    * {
+        font-size: 24px;
+    }
+
+    body {
+        position: absolute;
+        display: block;
+    }
+
+    .logo {
+        width: 5%;
+    }
+
+    main {
+    display: block;
+    margin: 40px 10px;
+    }
+
+    #mensajeIngresado {
+        height: 250px;
+        width: 305px;
+        margin: 40px 0 0 0;
+        font-size: 28px;
+    }
+
+    .informacion {
+        font-size: 12px;
+        margin: 5px;
+    }
+
+    #mensajeResultado {
+        position: relative;
+        display: block;
+        font-size: 20px;
+        height: 80px;
+        background-image: none;
+        margin: 40px 0 0 -6px;
+    }
+
+    h3 {
+        font-size: 22px;
+        margin: -110px 0 0 20px;
+    }
+
+    h4 {
+        margin: 10px 0 0 20px;
+    }
+
+    .botones {
+        display: block;
+    }
+    
+    .encriptar {
+        display: block;
+        margin: 10px 0 10px 5px;
+    }
+
+    .desencriptar {
+        display: block;
+    }
+
+    .copiar {
+        position: relative;
+        margin: 20px 0 10px 20px;
+    }
+}

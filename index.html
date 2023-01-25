@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Encriptador de Texto</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+   
+    </head>
+
+    <body>
+
+        <header>
+            <img class= "logo" src="Imágenes/Logo-2.png" alt="Logo de Alura">
+        </header>
+        <main>
+            <section>
+                <textarea id = "mensajeIngresado" cols="30" rows="8" placeholder = "Ingrese el texto aquí"></textarea>
+                <div>
+                    <h6 class="informacion">Sólo letras minúsculas y sin acentos</h6>
+                </div>
+                <div class="botones">
+                    <button class="encriptar" onclick="botonEncriptar()">Encriptar!</button>
+                    <button class="desencriptar" onclick="botonDesencriptar()">Desencriptar!</button>
+                </div>
+            </section>
+            <section>
+                <textarea id = "mensajeResultado" cols="20" rows="8"></textarea>
+                <h3 id = "mjeNoEncontrado">Ningún mensaje fue encontrado</h3>
+                <h4 id = "mjeIngresaTexto">Ingresa el texto que desees encriptar o desencriptar.</h4>
+                <button id = "copy" class="copiar">Copiar</button>
+            </section>
+        </main>
+        
+        <script src = "script.js"></script>
+        
+        <footer>
+            <p class="desarrolladora">Programa desarollado por Agostina Spoto ~ Enero 2023</p>
+        </footer>
+    
+    </body>
+
+</html>
