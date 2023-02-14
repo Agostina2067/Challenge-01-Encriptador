@@ -1,5 +1,5 @@
 * {
-    background: #eef8fd;
+    background: #f5f8fa;
     font-family: 'Inter', 'sans-serif';
     font-weight: 400;
 }
@@ -75,11 +75,11 @@ main {
 
 .desencriptar {
     font-size: 16px;
-    color: #0277BD;
-    background-color: #E1F5FE;
+    color: #FFFFFF;
+    background-color: #EC4070;
     width: 45%;
     height: 60px;
-    border: 1px solid #0277BD;
+    border: 1px solid #EC4070;
     border-radius: 10px;
     margin: auto;
     opacity: 80%;
@@ -137,14 +137,15 @@ main {
 
 h3 {
     background-color: #FFFFFF;
-    color: #838383;
+    color: #039be5;
     text-align: center;
     font-size: 22px;
+    font-weight: bold;
 }
 
 h4 {
     background-color: #FFFFFF;
-    color: #949494;
+    color: #29B6F6;
     text-align: center;
     font-size: 14px;
 }
@@ -241,12 +242,12 @@ h4 {
         font-size: 16px;
         background-image: none;
         width: 90%;
-        height: 100px;
+        height: 120px;
     }
     
     .mensajesSalida {
         position: relative;
-        margin-top: -110px;
+        margin-top: -130px;
     }
 
     .copiar {
